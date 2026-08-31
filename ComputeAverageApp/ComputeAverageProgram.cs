@@ -30,7 +30,7 @@ namespace ComputeAverageApp
             }
             catch (FormatException)
             {
-                Console.WriteLine("\n[!] ERROR: Invalid input. Please enter numeric values only.");
+                Console.WriteLine("\n[!] ERROR: Invalid input.");
             }
             catch (Exception ex)
             {
